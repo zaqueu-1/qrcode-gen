@@ -23,19 +23,21 @@ function handleQrCode(e) {
 
   return (
     <div className="container">
-      <h1>QR Code Generator</h1>
-      <h4>easy, simple and free!</h4>
+      <div style={{display: 'flex', alignItems: 'center'}}>
+        <h1>QR Code Me</h1><h5><a href='https://zaqueu.tech'>by zaqueu.tech</a></h5>
+      </div>
+      <h4>fácil, simples e <u>grátis!</u></h4>
 
     <QRCode value={ link }/>
 
       <input 
       className="input" 
-      placeholder="enter your url here!"
+      placeholder="insira aqui sua url!"
       value={ link }
       onChange={ (e) => handleQrCode(e) }/>
 
-      <button><a href={ qrDownload } download={`qrcode.png`}>Download</a></button>
-      <a class='footer' href='https://github.com/zaqueu-1'><h5>get in touch: click here!</h5></a>
+      <button><a href={ qrDownload } download={`qrcode.png`}>Download!</a></button>
+      <a class='footer' href='https://zaqueu.tech'><h5>conheça o desenvolvedor! clique aqui :)</h5></a>
     </div>
   );
 }

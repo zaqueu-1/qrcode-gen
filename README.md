@@ -2,7 +2,7 @@
 
 ## QR Code Generator
 
-Plain, simple and free QR Code Generator made with React. That's it.
+Plain, simple and free QR Code Generator made with React. That's it. 
 ## Demo
 
 ![demo](https://github.com/zaqueu-1/qrcode-gen/blob/main/chrome-capture-2022-11-16.gif)
